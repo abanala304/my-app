@@ -4,7 +4,10 @@ import './App.css';
 import Ex1 from './ex1.js'
 import Element from './anil.js';
 class App extends Component {
-  render() {
+  render()
+  
+  
+  {
     return (
     <div className="App">
         <header className="App-header">
