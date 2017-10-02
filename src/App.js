@@ -5,22 +5,24 @@ import Ex1 from './ex1.js'
 import Tick from './anil2.js'
 import Fun from './anil.js';
 import App1 from './props.js';
+import App3 from './props2.js';
 class App extends Component {
   render() {
  return (
     <div className="App">
         <header className="App-header">
           <img1 src={logo} className="App-logo" alt="logo" />
-          <img src="https://i.pinimg.com/736x/b8/be/f5/b8bef5902e49262e301b4134ae48fb9b--ganesha-paintings-ganesha-art.jpg" alt="Mountain View" />
+          <img src="http://raosrestaurants.com/images/raos_logo_home.jpg" alt="Mountain View" />
           <h1 className="App-title">Banala family</h1>
         </header>
         <p className="App-intro">
-          Welcome To Everyone, edit <code>src/App.js</code> and save to reload.
+          Welcome To Everyone, edit <code>src/App.js</code> and save to reload.~
         </p>
         <Ex1 />
         <Fun />
         <Tick />
         <App1 />
+        <App3 name="Anil" />
       </div>
     );
   }
