@@ -4,7 +4,10 @@ class Ex1 extends Component
 {
     render()
     {
-        return <h1>hi anil</h1>;
-    }
+        return <div>
+               <h1>hi anil</h1>;
+               <h2>welcome to my world</h2>
+               </div>
+    }   
 }
 export default Ex1;

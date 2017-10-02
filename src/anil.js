@@ -1,15 +1,10 @@
-function formatName(user) {
-    return user.firstName + ' ' + user.lastName;
-  }
-  
-  const user = {
-    firstName: 'Anil',
-    lastName: 'Banala'
-  };
-  
-  const Element = (
-    <h1>
-      Hello,!
-    </h1>
-  );
-  export default Element;
+import React from 'react';
+
+function Fun()
+{
+  return <div>
+            <h1>anil banala</h1>
+            <p>hyderabad</p>
+  </div>
+}
+  export default Fun;
