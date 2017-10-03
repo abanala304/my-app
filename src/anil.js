@@ -3,8 +3,8 @@ import React from 'react';
 function Fun()
 {
   return <div>
-            <h1>anil banala</h1>
-            <p>hyderabad</p>
+            <h1>its me Anil Banala</h1>
+            <p>I'm from India</p>
   </div>
 }
   export default Fun;

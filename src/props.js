@@ -1,18 +1,18 @@
 import React from 'react';
 function Welcome(props) {
     return <div>
-           <h1>Hello, {props.FirstName}</h1>
-           <h2>Hello, {props.MiddleName}</h2>
-           <h3>Hello, {props.LastName}</h3>
+           <h1>Im looking for {props.firstName}</h1>
+           <h2>do you have any {props.middleName}</h2>
+           <h3>if you have it what is the {props.lastName}.</h3>
       </div>
   }
   
-  function App1() {
+  function Props() {
     return (
       <div>
-        <Welcome FirstName="Anil" MiddleName="Rao" LastName="Banala" />
+        <Welcome firstName="job" middleName="Job openings" lastName="pay" />
        
       </div>
     );
   }
-  export default App1;
+  export default Props;
