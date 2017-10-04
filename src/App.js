@@ -8,6 +8,8 @@ import Fun from './anil.js';
 import Props from './props.js';
 import App2 from './props2.js';
 import Props3 from './state.js';
+import Ex3 from './comp.js';
+import Ex2 from './component.js';
 class App extends Component {
   render() {
  return (
@@ -24,6 +26,8 @@ class App extends Component {
         <Props />
         <App2 name="Ajay!" />
         <Props3 />
+        <Ex3 />
+        <Ex2 />
       </div>
     );
   }
