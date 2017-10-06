@@ -8,14 +8,19 @@ import Fun from './anil.js';
 import Props from './props.js';
 import App2 from './props2.js';
 import Props3 from './state.js';
-import Ex3 from './comp.js';
-import Ex2 from './component.js';
+//import Ex3 from './comp.js';
+//import Ex2 from './component.js';
+import Toggle from './toggle.js'
+import LoginControl from './loginControl.js';
+import LoginButton from './loginButton.js';
+import LogoutButton from './logoutButton.js';
 class App extends Component {
   render() {
  return (
     <div className="App">
+
         <header className="App-header">
-          <img1 src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="logo" />
           <img src="http://raosrestaurants.com/images/raos_logo_home.jpg" alt="Mountain View" />
           <h1 className="App-title">Banala family</h1>
         </header>
@@ -26,8 +31,12 @@ class App extends Component {
         <Props />
         <App2 name="Ajay!" />
         <Props3 />
-        <Ex3 />
-        <Ex2 />
+        {/* //<Ex3 /> */}
+        {/* <Ex2 /> */}
+        <Toggle />
+        <LoginControl />
+        <LoginButton />
+        <LogoutButton />
       </div>
     );
   }
