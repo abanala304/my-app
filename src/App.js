@@ -14,8 +14,13 @@ import Toggle from './toggle.js'
 import LoginControl from './loginControl.js';
 import LoginButton from './loginButton.js';
 import LogoutButton from './logoutButton.js';
+import LetterList from './listedkeys.js';
+import Listandkey from './listedkeys2.js';
+import Calculator from './liftingstate.js';
 class App extends Component {
   render() {
+  const letters = ['x', 'y', 'z', 'a', 'b'];
+    
  return (
     <div className="App">
 
@@ -37,6 +42,10 @@ class App extends Component {
         <LoginControl />
         <LoginButton />
         <LogoutButton />
+        <LetterList letters={letters} />
+        <Listandkey />
+        <Calculator />
+
       </div>
     );
   }
