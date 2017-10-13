@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Ex1 from './ex1.js'
 import State2 from './state2.js';
-import Tick from './anil2.js'
+import Tick from './anil2.js';
 import Fun from './anil.js';
 import Props from './props.js';
 import App2 from './props2.js';
@@ -17,6 +17,7 @@ import LogoutButton from './logoutButton.js';
 import LetterList from './listedkeys.js';
 import Listandkey from './listedkeys2.js';
 import Calculator from './liftingstate.js';
+import FancyBorder from './composition.js';
 class App extends Component {
   render() {
   const letters = ['x', 'y', 'z', 'a', 'b'];
@@ -45,6 +46,8 @@ class App extends Component {
         <LetterList letters={letters} />
         <Listandkey />
         <Calculator />
+        <FancyBorder />
+      
 
       </div>
     );
