@@ -13,9 +13,6 @@ const BasicExample = () => (
         <li><Link to="/hi">Middle-name</Link></li>
         <li><Link to="/hello">Last_name</Link></li>
       </ul>
-
-    
-
       <Route exact path="/" component={Anil}/>
       <Route path="/hi" component={Rao}/>
       <Route path="/hello" component={Banala}/>
