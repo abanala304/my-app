@@ -16,8 +16,9 @@ import LoginButton from './loginButton.js';
 import LogoutButton from './logoutButton.js';
 import LetterList from './listedkeys.js';
 import Listandkey from './listedkeys2.js';
-import Calculator from './liftingstate.js';
-import FancyBorder from './composition.js';
+//import Calculator from './liftingstate.js';
+//import FancyBorder from './composition.js';
+import BasicExample from './rout.js';
 class App extends Component {
   render() {
   const letters = ['x', 'y', 'z', 'a', 'b'];
@@ -45,8 +46,9 @@ class App extends Component {
         <LogoutButton />
         <LetterList letters={letters} />
         <Listandkey />
-        <Calculator />
-        <FancyBorder />
+        {/* <Calculator /> */}
+        {/* <FancyBorder /> */}
+        <BasicExample />
       
 
       </div>
